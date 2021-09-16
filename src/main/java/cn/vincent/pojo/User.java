@@ -10,4 +10,9 @@ import lombok.NoArgsConstructor;
 public class User {
     String name;
     Integer age;
+    Gender gender;
+
+    public enum Gender {
+        man, woman
+    }
 }
