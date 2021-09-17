@@ -10,6 +10,6 @@ public class MainController {
     @ResponseBody
     @GetMapping("/getJson")
     public User getJson(){
-        return new User("小明", 22, User.Gender.man);
+        return new User("小红", 22, User.Gender.woman);
     }
 }
