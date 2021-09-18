@@ -1,2 +1,8 @@
 server:
   port: 900
+
+logging:
+  file:
+    path: logs
+  level:
+    root: info
