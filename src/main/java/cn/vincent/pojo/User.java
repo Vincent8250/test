@@ -11,8 +11,5 @@ public class User {
     String name;
     Integer age;
     Gender gender;
-
-    public enum Gender {
-        man, woman
-    }
+    public enum Gender {man, woman}
 }
